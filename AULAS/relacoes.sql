@@ -1,0 +1,9 @@
+CREATE DATABASE relacoes;
+
+CREATE TABLE estudantes(
+id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nome VARCHAR(100),
+turma VARCHAR(5)
+);
+
+SELECT * FROM estudantes;

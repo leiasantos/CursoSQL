@@ -1,0 +1,7 @@
+CREATE TABLE clientes(
+id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nome VARCHAR(100),
+data_nascimento DATE
+);
+
+SELECT * FROM clientes;
